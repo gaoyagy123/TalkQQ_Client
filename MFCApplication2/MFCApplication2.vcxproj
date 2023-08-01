@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F2A354D3-80E6-4108-9F67-6EC1ADF6A308}</ProjectGuid>
+    <RootNamespace>MFCApplication2</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>TalkQQ</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Custom</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Custom</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CutPic.h" />
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="MFCApplication2.h" />
+    <ClInclude Include="MFCApplication2Dlg.h" />
+    <ClInclude Include="MsgDiaglog.h" />
+    <ClInclude Include="MyButton.h" />
+    <ClInclude Include="MyEdit.h" />
+    <ClInclude Include="MyTreeCtrl.h" />
+    <ClInclude Include="PictureEx.h" />
+    <ClInclude Include="RegWnd.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RichEdit.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="talktotalk.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CutPic.cpp" />
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="MFCApplication2.cpp" />
+    <ClCompile Include="MFCApplication2Dlg.cpp" />
+    <ClCompile Include="MsgDiaglog.cpp" />
+    <ClCompile Include="MyButton.cpp" />
+    <ClCompile Include="MyEdit.cpp" />
+    <ClCompile Include="MyTreeCtrl.cpp" />
+    <ClCompile Include="PictureEx.cpp" />
+    <ClCompile Include="RegWnd.cpp" />
+    <ClCompile Include="RichEdit.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="talktotalk.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCApplication2.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\2.bmp" />
+    <Image Include="..\..\2.jpg" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00001.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00002.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00003.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00004.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00005.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00006.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00007.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00008.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00009.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00010.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00011.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00012.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00013.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00014.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00015.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00016.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00017.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00018.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00019.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00020.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00021.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00022.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00023.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00024.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00025.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00026.ico" />
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00027.ico" />
+    <Image Include="..\..\qqicons\qqicons\Catch00001.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00002.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00003.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00004.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00005.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00006.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00008.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00009.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00010.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00011.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00012.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00013.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00014.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00015.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00016.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00017.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00018.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00019.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00020.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00021.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00022.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00023.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00024.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00025.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00026.jpg" />
+    <Image Include="..\..\qqicons\qqicons\Catch00027.jpg" />
+    <Image Include="faceico\001.ico" />
+    <Image Include="faceico\002.ico" />
+    <Image Include="faceico\003.ico" />
+    <Image Include="faceico\004.ico" />
+    <Image Include="faceico\005.ico" />
+    <Image Include="faceico\006.ico" />
+    <Image Include="faceico\007.ico" />
+    <Image Include="faceico\008.ico" />
+    <Image Include="faceico\009.ico" />
+    <Image Include="faceico\010.ico" />
+    <Image Include="faceico\011.ico" />
+    <Image Include="faceico\012.ico" />
+    <Image Include="faceico\013.ico" />
+    <Image Include="faceico\014.ico" />
+    <Image Include="faceico\015.ico" />
+    <Image Include="faceico\016.ico" />
+    <Image Include="faceico\017.ico" />
+    <Image Include="faceico\018.ico" />
+    <Image Include="faceico\019.ico" />
+    <Image Include="faceico\020.ico" />
+    <Image Include="faceico\021.ico" />
+    <Image Include="faceico\022.ico" />
+    <Image Include="faceico\023.ico" />
+    <Image Include="faceico\024.ico" />
+    <Image Include="faceico\025.ico" />
+    <Image Include="faceico\026.ico" />
+    <Image Include="faceico\027.ico" />
+    <Image Include="faceico\028.ico" />
+    <Image Include="faceico\029.ico" />
+    <Image Include="faceico\030.ico" />
+    <Image Include="faceico\031.ico" />
+    <Image Include="faceico\032.ico" />
+    <Image Include="faceico\033.ico" />
+    <Image Include="faceico\034.ico" />
+    <Image Include="faceico\035.ico" />
+    <Image Include="faceico\036.ico" />
+    <Image Include="faceico\037.ico" />
+    <Image Include="faceico\038.ico" />
+    <Image Include="faceico\039.ico" />
+    <Image Include="faceico\040.ico" />
+    <Image Include="faceico\041.ico" />
+    <Image Include="faceico\042.ico" />
+    <Image Include="faceico\043.ico" />
+    <Image Include="faceico\044.ico" />
+    <Image Include="faceico\045.ico" />
+    <Image Include="faceico\046.ico" />
+    <Image Include="faceico\047.ico" />
+    <Image Include="faceico\048.ico" />
+    <Image Include="faceico\049.ico" />
+    <Image Include="faceico\050.ico" />
+    <Image Include="faceico\051.ico" />
+    <Image Include="faceico\052.ico" />
+    <Image Include="faceico\053.ico" />
+    <Image Include="faceico\054.ico" />
+    <Image Include="faceico\055.ico" />
+    <Image Include="faceico\056.ico" />
+    <Image Include="faceico\057.ico" />
+    <Image Include="faceico\058.ico" />
+    <Image Include="faceico\059.ico" />
+    <Image Include="faceico\060.ico" />
+    <Image Include="faceico\061.ico" />
+    <Image Include="faceico\062.ico" />
+    <Image Include="faceico\063.ico" />
+    <Image Include="faceico\064.ico" />
+    <Image Include="faceico\065.ico" />
+    <Image Include="faceico\066.ico" />
+    <Image Include="faceico\067.ico" />
+    <Image Include="faceico\068.ico" />
+    <Image Include="faceico\069.ico" />
+    <Image Include="faceico\070.ico" />
+    <Image Include="faceico\071.ico" />
+    <Image Include="faceico\072.ico" />
+    <Image Include="faceico\073.ico" />
+    <Image Include="faceico\074.ico" />
+    <Image Include="faceico\075.ico" />
+    <Image Include="faceico\076.ico" />
+    <Image Include="faceico\077.ico" />
+    <Image Include="faceico\078.ico" />
+    <Image Include="faceico\079.ico" />
+    <Image Include="faceico\080.ico" />
+    <Image Include="faceico\081.ico" />
+    <Image Include="faceico\082.ico" />
+    <Image Include="faceico\083.ico" />
+    <Image Include="faceico\084.ico" />
+    <Image Include="faceico\085.ico" />
+    <Image Include="faceico\086.ico" />
+    <Image Include="faceico\087.ico" />
+    <Image Include="faceico\088.ico" />
+    <Image Include="res\001_.bmp" />
+    <Image Include="res\002.bmp" />
+    <Image Include="res\003.bmp" />
+    <Image Include="res\2.bmp" />
+    <Image Include="res\31311.ico" />
+    <Image Include="res\a.gif" />
+    <Image Include="res\altavoz.ico" />
+    <Image Include="res\bitmap5.bmp" />
+    <Image Include="res\c.bmp" />
+    <Image Include="res\C.ico" />
+    <Image Include="res\ico\Catch00001.ico" />
+    <Image Include="res\ico\Catch00002.ico" />
+    <Image Include="res\ico\Catch00003.ico" />
+    <Image Include="res\ico\Catch00004.ico" />
+    <Image Include="res\ico\Catch00005.ico" />
+    <Image Include="res\ico\Catch00006.ico" />
+    <Image Include="res\ico\Catch00007.ico" />
+    <Image Include="res\ico\Catch00008.ico" />
+    <Image Include="res\ico\Catch00009.ico" />
+    <Image Include="res\ico\Catch00010.ico" />
+    <Image Include="res\ico\Catch00011.ico" />
+    <Image Include="res\ico\Catch00012.ico" />
+    <Image Include="res\ico\Catch00013.ico" />
+    <Image Include="res\ico\Catch00014.ico" />
+    <Image Include="res\ico\Catch00015.ico" />
+    <Image Include="res\ico\Catch00016.ico" />
+    <Image Include="res\ico\Catch00017.ico" />
+    <Image Include="res\ico\Catch00018.ico" />
+    <Image Include="res\ico\Catch00019.ico" />
+    <Image Include="res\ico\Catch00020.ico" />
+    <Image Include="res\ico\Catch00021.ico" />
+    <Image Include="res\ico\Catch00022.ico" />
+    <Image Include="res\ico\Catch00023.ico" />
+    <Image Include="res\ico\Catch00024.ico" />
+    <Image Include="res\ico\Catch00025.ico" />
+    <Image Include="res\ico\Catch00026.ico" />
+    <Image Include="res\ico\Catch00027.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_1.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_101.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_103.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_105.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_11.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_24.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_26.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_27.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_31.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_33.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_35.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_39.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_41.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_42.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_52.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_61.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_69.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_78.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_80.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_81.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_84.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_86.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_88.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_90.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_91.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_92.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_93.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_95.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_96.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_97.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_110.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_15.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_17.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_22.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_25.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_32.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_34.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_36.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_45.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_55.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_6.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_64.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_65.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_7.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_70.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_74.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_76.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_8.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_85.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_98.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_102.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_106.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_107.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_108.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_109.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_21.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_29.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_30.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_37.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_4.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_43.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_44.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_46.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_48.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_54.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_73.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_77.ico" />
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_79.ico" />
+    <Image Include="res\MFCApplication2.ico" />
+    <Image Include="res\pc_memo_pkg.bmp" />
+    <Image Include="res\wall2(1024x768).bmp" />
+    <Image Include="res\x.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties _x007B_2C247F23-8591-11D1-B16A-00C0F0283628_x007D_="CImagelistctrl1" _x007B_58DA8D8F-9D6A-101B-AFC0-4210102A8DA7_x007D_="CImageList" RESOURCE_FILE="MFCApplication2.rc" _x007B_D27CDB6E-AE6D-11CF-96B8-444553540000_x007D_="CShockwaveflash" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

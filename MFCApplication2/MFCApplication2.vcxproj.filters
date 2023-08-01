@@ -1,0 +1,871 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFCApplication2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCApplication2Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTreeCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="talktotalk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RichEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CutPic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgDiaglog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFCApplication2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication2Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTreeCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="talktotalk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RichEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CutPic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgDiaglog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCApplication2.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCApplication2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\31311.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\a.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pc_memo_pkg.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\wall2(1024x768).bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\c.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\C.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00001.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00002.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00003.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00004.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00005.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00006.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00008.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00009.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00010.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00011.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00012.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00013.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00014.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00015.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00016.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00017.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00018.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00019.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00020.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00021.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00022.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00023.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00024.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00025.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00026.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\qqicons\qqicons\Catch00027.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00001.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00002.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00003.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00004.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00005.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00006.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00007.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00008.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00009.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00010.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00011.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00012.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00013.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00014.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00015.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00016.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00017.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00018.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00019.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00020.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00021.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00022.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00023.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00024.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00025.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00026.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\magicICO\魔法ICO v2.00\ico\Catch00027.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00001.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00002.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00003.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00004.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00005.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00006.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00007.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00008.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00009.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00010.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00011.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00012.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00013.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00014.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00015.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00016.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00017.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00018.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00019.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00020.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00021.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00022.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00023.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00024.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00025.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00026.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\Catch00027.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_11.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_24.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_26.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_27.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_31.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_33.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_35.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_39.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_41.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_42.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_52.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_61.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_69.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_78.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_80.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_81.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_84.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_86.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_88.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_90.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_91.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_92.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_93.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_95.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_96.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_97.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_101.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_103.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t10.baidu.com_105.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_6.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_7.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_8.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_15.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_17.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_22.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_25.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_32.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_34.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_36.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_45.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_55.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_64.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_65.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_70.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_74.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_76.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_85.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_98.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t11.baidu.com_110.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_4.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_21.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_29.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_30.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_37.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_43.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_44.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_46.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_48.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_54.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_73.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_77.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_79.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_102.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_106.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_107.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_108.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\qq群头像图片_百度图片搜索_t12.baidu.com_109.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\001_.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\001.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\002.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\003.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\004.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\005.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\006.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\007.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\008.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\009.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\010.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\011.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\012.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\013.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\014.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\015.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\016.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\017.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\018.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\019.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\020.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\021.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\022.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\023.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\024.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\025.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\026.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\027.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\028.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\029.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\030.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\031.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\032.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\033.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\034.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\035.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\036.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\037.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\038.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\039.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\040.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\041.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\042.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\043.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\044.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\045.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\046.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\047.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\048.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\049.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\050.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\051.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\052.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\053.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\054.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\055.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\056.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\057.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\058.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\059.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\060.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\061.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\062.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\063.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\064.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\065.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\066.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\067.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\068.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\069.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\070.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\071.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\072.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\073.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\074.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\075.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\076.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\077.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\078.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\079.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\080.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\081.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\082.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\083.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\084.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\085.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\086.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\087.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="faceico\088.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\002.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\003.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\x.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\altavoz.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
